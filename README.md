@@ -31,17 +31,6 @@ Les starters dont nous aurons besoin
 
 # Modification du fichier applications.properties
 
-spring.datasource.url = jdbc:mysql://localhost:3306/immobilierdb?createDatabaseIfNotExist=true
-#spring.datasource.url = jdbc:mysql://localhost:3306/onlineisi?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
-spring.datasource.username = root
-spring.datasource.password =
-spring.datasource.driverClassName = com.mysql.jdbc.Driver
-spring.jpa.show-sql = true
-spring.jpa.hibernate.ddl-auto = update
-spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5InnoDBDialect
-spring.thymeleaf.cache=false
-#Server Error 404
-server.error.whitelabel.enabled=false
+<img width="748" alt="Capture d’écran 2022-04-11 à 18 31 53" src="https://user-images.githubusercontent.com/47887636/162805998-71502bcf-91fb-4ec9-8acc-e51d07ea42c4.png">
 
-#Tomcat configuration
-server.port=9000
+
