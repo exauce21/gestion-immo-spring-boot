@@ -4,12 +4,12 @@ Mise en place d'un système de gestion immobilière <br/>
 <ul>
     <li>Système de gestion des contrats 
       <ul>
-        <li>L'option imprimer en PDF</li>
-        <li>Envoie d'un mailing au client par rapport au règlement de location ou autre </li>
+        <li>L'option `imprimer en PDF`</li>
+        <li>Envoie d'un `mailing au client` par rapport au règlement de location ou autre </li>
       </ul>
     </li>
-    <li>Système de gestion factution -  avec l'option imprimer en PDF</li>
-    <li>Système de gestion rapport au format Excel</li>
+    <li>Système de gestion factution -  avec l'option `imprimer en PDF`</li>
+    <li>Système de gestion `rapport au format Excel`</li>
 </ul>
 
 # Création de projet avec Spring Initializr
