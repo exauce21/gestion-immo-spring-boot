@@ -13,7 +13,7 @@ Mise en place d'un système de gestion immobilière <br/>
 </ul>
 
 # Création de projet avec Spring Initializr
-https://start.spring.io/
+`https://start.spring.io/`
 
 Les starters dont nous aurons besoin
 
@@ -31,6 +31,18 @@ Les starters dont nous aurons besoin
 
 # Modification du fichier applications.properties
 
-<img width="748" alt="Capture d’écran 2022-04-11 à 18 31 53" src="https://user-images.githubusercontent.com/47887636/162805998-71502bcf-91fb-4ec9-8acc-e51d07ea42c4.png">
+```javascript
+spring.datasource.url = jdbc:mysql://localhost:3306/immobilierdb?createDatabaseIfNotExist=true
+spring.datasource.username = root
+spring.datasource.password =
+spring.datasource.driverClassName = com.mysql.jdbc.Driver
+spring.jpa.show-sql = true
+spring.jpa.hibernate.ddl-auto = update
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5InnoDBDialect
+spring.thymeleaf.cache=false
+#Server Error 404
+server.error.whitelabel.enabled=false
 
-
+#Tomcat configuration
+server.port=9000
+```
